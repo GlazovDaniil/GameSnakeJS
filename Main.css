@@ -1,0 +1,58 @@
+.tury{
+	width: 608px;
+	height: 608px;
+}
+button{
+	width: 150px;
+	height: 50px;
+	left: 250px;
+	position: fixed;
+
+}
+#game{
+	position: fixed;
+	left: 35%;
+	z-index: 1;
+}
+#game1{
+	position: fixed;
+	left: 35%;
+	z-index: 0;
+}
+#ground{
+	display: grid;
+	grid-template-columns:  608px;
+	grid-template-rows:  64px 544px;
+	margin: 0 auto;
+	width: 608px;
+	height: 608px;
+	background-color: green;
+}
+.top{
+	display: grid;
+	grid-template-columns:  588px;
+	margin: 10px;
+	width: 588px;
+	height: 100%;
+	background-color:rgb(2, 63, 2);
+}
+.down{
+	display: grid;
+	grid-template-columns:  32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+	grid-template-rows:  32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+	margin: 32px;
+	background-color: bisque;
+}
+.ground1, .ground2 {
+	width: 32px;
+	height: 32px;
+}
+.ground1{
+	background-color: rgb(4, 167, 4);
+}
+.ground2{
+	background-color: rgb(0, 177, 0);
+}
+::-webkit-scrollbar {
+    display: none;
+}
